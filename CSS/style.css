@@ -22,11 +22,11 @@ input[type="email"]:focus {
   border: 3px solid orangered;
   outline: 1px dashed black;
 }
-input[type="email"]:valid {
-  border: 3px solid red;
-}
+/* input[type="email"]:valid {
+  border: 5px solid red;
+} */
 input[type="email"]:invalid {
-  border: 3px solid green;
+  border: 5px solid green;
 }
 .select {
   background-color: rgb(216, 216, 80);
