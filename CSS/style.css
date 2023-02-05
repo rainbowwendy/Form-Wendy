@@ -1,0 +1,107 @@
+form {
+  width: 610px;
+  margin: 5em auto;
+  border: 5px inset black;
+  padding: 2em;
+}
+legend {
+  font-size: x-large;
+  font-weight: 900;
+  text-align: center;
+}
+li {
+  font-size: large;
+  font-weight: 800;
+}
+input[type="text"],
+input[type="email"] {
+  background-color: rgb(216, 216, 80);
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border: 3px solid orangered;
+  outline: 1px dashed black;
+}
+input[type="email"]:valid {
+  border: 3px solid red;
+}
+input[type="email"]:invalid {
+  border: 3px solid green;
+}
+.select {
+  background-color: rgb(216, 216, 80);
+  color: rgb(48, 36, 36);
+}
+input[type="radio"] {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
+  outline: 2px solid white;
+  transform: translateY(5px);
+}
+input[type="radio"]:checked {
+  background-color: orangered;
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  transform: translateY(10px);
+}
+input[type="checkbox"]:checked {
+  background-color: rgb(71, 71, 184);
+}
+input[type="checkbox"]::after {
+  content: "";
+  transition: all 1s;
+  transform: scale(5);
+}
+input[type="checkbox"]:checked:after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-width: 0 3px 3px 0;
+  border-color: yellow;
+  border-style: solid;
+  transform: translateX(-2px) translateY(-2px) rotate(45deg);
+}
+.submit {
+  width: 80px;
+  height: 30px;
+  background-color: rgba(255, 68, 0, 0.575);
+  border-color: red;
+  color: rgb(55, 31, 31);
+  font-weight: 900;
+  transform: translateX(260px) translateY(10px);
+  cursor: url("../IMG/corsor.gif"), auto;
+}
+.lab {
+  background-image: url(../IMG/pharmacy-g10ddbf5b1_1280.jpg);
+  background-size: contain;
+  color: rgb(50, 42, 42);
+}
+.car {
+  background-image: url(../IMG/raindrops-gb67524dd9_1280.jpg);
+  background-size: contain;
+  color: orange;
+}
+.sport {
+  background-image: url(../IMG/grass.jpg);
+  background-size: cover;
+  color: orange;
+  background-attachment: fixed;
+}
+.movie {
+  background-image: url(../IMG/film.png);
+  background-size: contain;
+  color: rgb(71, 71, 184);
+}
+.song {
+  background-image: url(../IMG/music-g304fbaa0a_1280.jpg);
+  background-size: contain;
+  color: rgb(71, 71, 184);
+}

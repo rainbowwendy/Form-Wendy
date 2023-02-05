@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form class="lab" action="./index.html">
+      <fieldset>
+        <legend>Book a Lab Visit</legend>
+        <ul>
+          <li>
+            <label for="privice">Province</label>
+            <select class="select" name="province" id="">
+              <option value="">select</option>
+              <option value="">British Columbia</option>
+              <option value="">Ontario</option>
+              <option value="">Saskatchewan</option>
+            </select>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <label for="date">Date to Visit</label>
+            <input type="text" name="date" placeholder="dd/mm/yyyy" />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Patient Name<br />
+            <label for="patient">First Name</label>
+            <input type="text" name="patient" /><br />
+            <label for="patient">Last Name</label>
+            <input type="text" name="patient" />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Contact Info<br />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="email@email.com"
+            /><br />
+            <label for="contact">Contact Number</label>
+            <input type="text" name="contact" placeholder="xxx-xxx-xxxx" />
+          </li>
+        </ul>
+      </fieldset>
+      <button class="submit">Submit</button>
+    </form>
+    <form class="car" action="./index.html">
+      <fieldset>
+        <legend>Book an Appointment for glass of vehicle</legend>
+        <ul>
+          <li>Select Damage</li>
+          <input type="radio" name="" id="" />
+          <label for="windshield">Windshield</label>
+          <select class="select" name="windshield" id="">
+            <option value="">select</option>
+            <option value="">A Crack</option>
+            <option value="">1 to 3 chips</option>
+            <option value="">4 or more chips</option></select
+          ><br />
+          <input type="radio" name="" id="" />
+          <label for="sideglass">Side glass</label
+          ><br />
+          <input type="radio" name="" id="" />
+          <label for="rearglass">Rear glass</label>
+        </ul>
+        <ul>
+          <li>Date to Visit</li>
+          <label for="when"></label>
+          <input type="text" name="when" placeholder="dd/mm/yyyy" />
+        </ul>
+        <ul>
+          <li>
+            Contact Info<br />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="email@email.com"
+            /><br />
+            <label for="contact">Contact Number</label>
+            <input type="text" name="contact" placeholder="xxx-xxx-xxxx" />
+          </li>
+        </ul>
+      </fieldset>
+      <button class="submit">Submit</button>
+    </form>
+    <form class="sport" action="./index.html">
+      <fieldset>
+        <legend>Survey-Sports</legend>
+        <ul>
+          <li>Which one is your favorite sport?</li>
+          <input type="radio" name="soccer" id="" />
+          <label for="soccer">Soccer</label
+          ><br />
+          <input type="radio" name="baseball" id="" />
+          <label for="baseball">Baseball</label
+          ><br />
+          <input type="radio" name="basketball" id="" />
+          <label for="basketball">Basketball</label
+          ><br />
+          <input type="radio" name="swimming" id="" />
+          <label for="swimming">Swimming</label
+          ><br />
+          <input type="radio" name="soccer" id="" />
+          <label for="soccer">Soccer</label>
+        </ul>
+      </fieldset>
+      <button class="submit">Submit</button>
+    </form>
+    <form class="movie" action="./index.html">
+      <fieldset>
+        <legend class="">Survey-Best Movie</legend>
+        <ul>
+          <li>Please select your best movie this week</li>
+          <input type="checkbox" name="opt-1" id="" />
+          <label for="opt-1">Avatar: The Way of Water</label
+          ><br />
+          <input type="checkbox" name="opt-2" id="" />
+          <label for="opt-2">M3GAN</label
+          ><br />
+          <input type="checkbox" name="opt-3" id="" />
+          <label for="opt-3">Missing</label
+          ><br />
+          <input type="checkbox" name="opt-4" id="" />
+          <label for="opt-4">A Man Called Otto</label>
+        </ul>
+      </fieldset>
+      <button class="submit">Submit</button>
+    </form>
+    <form class="song" action="./index.html">
+      <fieldset>
+        <legend>Survey-Best Song</legend>
+        <ul>
+          <li>Please select your best song</li>
+          <input type="checkbox" name="opt-1" id="" />
+          <label for="opt-1">Anti-Hero by Taylor Swift</label
+          ><br />
+          <input type="checkbox" name="opt-2" id="" />
+          <label for="opt-2">Kill Bill by SZA</label
+          ><br />
+          <input type="checkbox" name="opt-3" id="" />
+          <label for="opt-3">Unholy by Sam Smith & Kim Petras</label
+          ><br />
+          <input type="checkbox" name="opt-4" id="" />
+          <label for="opt-4">I'm Good(Blue) by David Guetta &Bebe Rexha</label
+          ><br />
+          <input type="checkbox" name="opt-5" id="" />
+          <label for="opt-5">Creeping by Metro Boomin</label>
+        </ul>
+      </fieldset>
+      <button class="submit">Submit</button>
+    </form>
+  </body>
+</html>
